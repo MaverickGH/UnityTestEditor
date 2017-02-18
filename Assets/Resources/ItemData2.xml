@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CityView id="EGYPT">
+  <Background id="CITY_BACKGROUND">
+    <Layer>
+      <Item type="sprites" alias="city3">
+        <itemOffset offsetx="0" offsety="0" />
+        <stingItemOffset>0 0</stingItemOffset>
+      </Item>
+      <Item type="sprites" alias="city4">
+        <itemOffset offsetx="0" offsety="0" />
+        <stingItemOffset>0 0</stingItemOffset>
+      </Item>
+    </Layer>
+  </Background>
+  <Constructions>
+    <Construction id="city_field" type="resource" open_sound="int_btn_down" left="10" top="10">
+      <Layers>
+        <Layer upgrade="1">
+          <Item type="sprites" alias="city">
+            <itemOffset offsetx="0" offsety="0" />
+            <stingItemOffset>0 0</stingItemOffset>
+          </Item>
+          <Item type="sprites" alias="city2">
+            <itemOffset offsetx="0" offsety="0" />
+            <stingItemOffset>0 0</stingItemOffset>
+          </Item>
+        </Layer>
+      </Layers>
+    </Construction>
+    <Construction id="city_field2" type="resource" open_sound="int_btn_down" left="10" top="10">
+      <Layers>
+        <Layer offset="10 0" upgrade="1">
+          <Item type="sprites" alias="city">
+            <itemOffset offsetx="0" offsety="0" />
+            <stingItemOffset>0 0</stingItemOffset>
+          </Item>
+          <Item type="sprites" alias="city2">
+            <itemOffset offsetx="0" offsety="0" />
+            <stingItemOffset>0 0</stingItemOffset>
+          </Item>
+        </Layer>
+      </Layers>
+    </Construction>
+  </Constructions>
+</CityView>
